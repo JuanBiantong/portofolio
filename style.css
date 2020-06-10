@@ -1,0 +1,170 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+  }
+  
+  body {
+    background-image: url(./background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    color: #555555;
+  }
+
+.container {
+    border: 1px solid grey;
+    width: 60%;
+    display: flex;
+    margin: 5% auto;
+    
+}
+.left {
+    border: 1px solid grey;
+    width: 35%;
+    padding: 2%;
+    background: #1f90c4;
+    color: #cce2eb;
+}
+
+.left hr  {
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.left .foto_profile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    padding-bottom: 5%;
+}
+.left .foto_profile img {
+    width: 80%;
+    border-radius: 50%;
+    
+}
+.left .profile {
+    padding-bottom: 5%;
+}
+
+.left .contact {
+    padding-bottom: 5%;
+}
+.left .logo {
+    width: 1vw;
+    height: 2vw;
+    color: #fff;
+    float: left;
+    margin-right: 1vw;
+  }
+
+.left .social_media {
+    padding-bottom: 5%;
+}
+
+.right {
+    border: 1px solid grey;
+    width: 65%;
+    padding: 3%;
+    background: #ffffff;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.right .name h1 {
+    color: #1f90c4;
+    opacity: 2;
+}
+
+.right .name h3 {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+}
+
+.right h2 {
+    font-size: 1vw;
+}
+
+.left hr  {
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.right .education {
+    padding-bottom: 1%;
+    position: relative;
+}
+
+.year {
+    float: left;
+    width: 23%;
+    height: 100%;
+    margin-left: 4%;
+    }
+
+.education ul li {
+    position: relative;
+    height: 5%;  
+}
+.education li:after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    left: 23%;
+    width: 2%;
+    height: 20%;
+    border-radius: 50%;
+    background-color:  #2b798f ;
+}
+  
+.education li:before {
+    content: "";
+    position: absolute; 
+    top: 15%;
+    left: 23.7%;
+    width: 0.5%;
+    height: 100%;
+    background: rgb(143, 135, 135);
+}
+  
+.right .organization {
+    padding-bottom: 1%;
+}
+.organization ul li {
+    position: relative;
+    height: 5%;  
+}
+
+.organization li:after {
+    content: "";
+    position: absolute;
+    top: 15%;
+    left: 23%;
+    width: 2%;
+    height: 20%;
+    border-radius: 50%;
+    background-color:  #2b798f ;
+}
+  
+.organization li:before {
+    content: "";
+    position: absolute; 
+    top: 15%;
+    left: 23.7%;
+    width: 0.5%;
+    height: 100%;
+    background: rgb(143, 135, 135);
+}
+
+.right .skill_character {
+    padding-bottom: 1%;
+}
