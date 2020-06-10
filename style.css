@@ -17,22 +17,23 @@
     background-attachment: fixed;
     font-size: 1vw;
     line-height: 1.5vw;
-    color: #555555;
+    color: #9e8080;
   }
 
 .container {
-    border: 1px solid grey;
     width: 60%;
     display: flex;
     margin: 5% auto;
+    background: #a0c5d3;
     
 }
 .left {
-    border: 1px solid grey;
     width: 35%;
     padding: 2%;
     background: #1f90c4;
     color: #cce2eb;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
 
 .left hr  {
@@ -46,6 +47,7 @@
     width: 100%;
     height: 200px;
     padding-bottom: 5%;
+    
 }
 .left .foto_profile img {
     width: 80%;
@@ -54,6 +56,7 @@
 }
 .left .profile {
     padding-bottom: 5%;
+    
 }
 
 .left .contact {
@@ -72,12 +75,12 @@
 }
 
 .right {
-    border: 1px solid grey;
     width: 65%;
     padding: 3%;
     background: #ffffff;
-    opacity: 0.8;
     font-weight: bold;
+    border-top-left-radius: 50%;
+    opacity: 0.8;
 }
 
 .right .name h1 {
@@ -95,33 +98,33 @@
     font-size: 1vw;
 }
 
-.left hr  {
-    margin-bottom: 3%;
-    margin-top: 3%;
+.right hr  {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .right .education {
     padding-bottom: 1%;
     position: relative;
 }
 
-.year {
+
+.right .year {
     float: left;
     width: 23%;
-    height: 100%;
     margin-left: 4%;
-    }
+    padding: 1% 0;
+}
 
 .education ul li {
-    position: relative;
-    height: 5%;  
+    position: relative;  
 }
 .education li:after {
     content: "";
     position: absolute;
     top: 15%;
     left: 23%;
-    width: 2%;
-    height: 20%;
+    width: 1.5%;
+    height: 15%;
     border-radius: 50%;
     background-color:  #2b798f ;
 }
@@ -130,10 +133,10 @@
     content: "";
     position: absolute; 
     top: 15%;
-    left: 23.7%;
+    left: 23.5%;
     width: 0.5%;
     height: 100%;
-    background: rgb(143, 135, 135);
+    background: #555555 ;
 }
   
 .right .organization {
@@ -149,8 +152,8 @@
     position: absolute;
     top: 15%;
     left: 23%;
-    width: 2%;
-    height: 20%;
+    width: 1.5%;
+    height: 15%;
     border-radius: 50%;
     background-color:  #2b798f ;
 }
@@ -159,12 +162,57 @@
     content: "";
     position: absolute; 
     top: 15%;
-    left: 23.7%;
+    left: 23.5%;
     width: 0.5%;
     height: 100%;
-    background: rgb(143, 135, 135);
+    background: #555555;
 }
 
 .right .skill_character {
     padding-bottom: 1%;
 }
+
+.right .skill_character .skill{
+    font-weight: bold;
+    width: 50% ;
+    float :left;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .right .skill_character .character{
+    font-weight: bold;
+    width:50% ;
+    float: right;
+  }
+.right .skill_character ul li {
+    display: flex;
+  margin-bottom: 10px;
+  color: #555555;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.right .skill_character ul li .skill_name {
+    width: 30%;
+}
+
+.right .skill_character ul li .skill_progress {
+    width: 60%;
+    height: 0.8vw;
+    background:#2a353d;
+    position: relative;
+    margin-right: 2%;
+    
+  }
+
+  .right .skill_character ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:#239bfc;
+  }
+  
