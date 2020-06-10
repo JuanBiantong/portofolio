@@ -17,7 +17,7 @@
     background-attachment: fixed;
     font-size: 1vw;
     line-height: 1.5vw;
-    color: #9e8080;
+    color: #2a3594;
   }
 
 .container {
@@ -27,13 +27,17 @@
     background: #a0c5d3;
     
 }
+
+div {
+    border-radius: 10px;
+}
 .left {
     width: 35%;
     padding: 2%;
     background: #1f90c4;
     color: #cce2eb;
     border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+   
 }
 
 .left hr  {
@@ -79,7 +83,7 @@
     padding: 3%;
     background: #ffffff;
     font-weight: bold;
-    border-top-left-radius: 50%;
+    border-top-left-radius: 100%;
     opacity: 0.8;
 }
 
